@@ -1,0 +1,146 @@
+* {
+    align-items: center;
+}
+body {
+    justify-content: center;
+    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
+/* 
+    Main Header Section
+*/
+
+.main_navbar {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 0;
+
+}
+
+.main_navbar ul {
+}
+
+.main_nav_item{
+    display: inline;
+
+}
+
+.nav_button {
+    background-color: antiquewhite;
+    margin: 40px;
+    height: 50px;
+    width: 100px;
+}
+
+a:hover {
+    box-shadow: 3px 3px 3px 3px gray;
+    margin: 40px;
+    padding: 15px;
+}
+
+.main_bg_img {
+    background-image: url(../Resources/img/header_main_pic.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 60%;
+    margin: 55px auto;
+    
+}
+
+/* Main Content */
+
+#main_content {
+    display: block;
+    align-content: center;
+    width: 1100px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#main_content h1, #main_content h2, #main_content h3{
+    text-align: center;
+}
+
+/* 
+    Services article section
+*/
+#services h1 {
+    text-align: center; 
+}
+#serv_container {
+    height: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+}
+
+.services_group {
+    box-sizing: border-box;
+    padding: 4px;
+    height: 520px;
+    width: 250px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 10px gray;
+
+}
+
+.services_group h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.services_img {
+    height: 300px;
+    width: 99%;
+    border: 2px solid black;
+
+}
+
+figcaption {
+    width: 100%;
+}
+
+/* 
+    Contact Section
+*/
+
+#all_contact_icons {
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact_icon {
+    
+    width: 50px;
+    height: 50px;
+    margin: 40px;
+}
+
+/* 
+    Footer Section
+*/
+
+footer {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 69);
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h1 {
+    margin-top: auto;
+}
+
+footer ul{
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
