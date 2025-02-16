@@ -4,6 +4,7 @@
 body {
     justify-content: center;
     background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+    margin: 0;
 }
 /* 
     Main Header Section
@@ -78,12 +79,13 @@ a:hover {
     display: grid;
     justify-content: center;
     grid-template-columns: 300px 300px 300px;
+    margin-right: 20px;
 }
 
 .services_group {
     box-sizing: border-box;
     padding: 4px;
-    height: 520px;
+    height: 650px;
     width: 250px;
     background-color: aliceblue;
     box-shadow: 10px 10px 10px gray;
@@ -100,6 +102,10 @@ a:hover {
     width: 99%;
     border: 2px solid black;
 
+}
+
+figure h3 {
+    height: 40px;
 }
 
 figcaption {
