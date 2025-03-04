@@ -12,18 +12,28 @@
 <body>
 
     <header>
+
         <nav class="main_navbar">
-            <ul>
-                <li class="main_nav_item">
-                    <a href="#main_content" class="nav_button">About</a>
-                </li>
-                <li class="main_nav_item">
-                    <a href="#services" class="nav_button">Services</a>
-                </li>
-                <li class="main_nav_item">
-                    <a href="#contact_info" class="nav_button">Contact</a>
-                </li>
-            </ul>
+            <div class="nav_div">
+                <h1>Monica Meng</h1>
+            </div>
+            <div class="nav_div">
+                <ul>
+                    <li class="main_nav_item">
+                        <a href="#main_content" class="nav_button">About Me</a>
+                    </li>
+                    <li class="main_nav_item">
+                        <a href="#services" class="nav_button">Services</a>
+                    </li>
+                    <li class="main_nav_item">
+                        <a href="#contact_info">
+                            <button class="nav_button">
+                                Contact
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div>
             <h1 class="main_bg_img"> Monica Meng</h1>
@@ -47,91 +57,76 @@
             </p>
         </article>
 
-        <article id="services">
+        <article class="cta">
+            <h2>Seamless Communication for Your Business and Travel Needs!</h2>
+            <p>Whether you need expert interpretation for business meetings, trade shows, factory visits, or
+                personalized travel assistance, I ensure smooth and effective communication. Reach out today, and let’s
+                make your experience effortless and successful!</p>
+        </article>
+
+        <div id="services">
             <h2>My Services</h2>
-            <div id="serv_container">
-                <figure class="services_group">
-                    <h3>Business and Factory Guide</h3>
-                    <img src="../Resources/img/placeholder.png" alt="Factory Visiting Guide" class="services_img">
-                    <figcaption>
-                        <ul>
-                            <li>Accompanies foreign clients on factory and company visits in industries such as electronics, jewelry, furniture, textiles, and construction materials;</li>
-                            <li>Assists in business negotiations, product inspections, and supplier meetings;</li>
-                            <li>Provides industry-specific translation and cultural guidance.</li>
-                        </ul>
-                    </figcaption>
-                </figure>
 
-                <figure class="services_group">
-                    <h3>Event and Conference Interpreter</h3>
-                    <img src="../Resources/img/placeholder.png" alt="Interpreter for Private Events"
-                        class="services_img">
-                    <figcaption>
-                        <ul>
-                            <li>Provides consecutive and simultaneous interpretation for business meetings, trade negotiations, and corporate events;</li>
-                            <li>Specializes in industries such as renewable energy, medical technology, real estate, and industrial equipment;</li>
-                            <li>Experienced in high-level discussions with executives and government representatives.</li>
-                        </ul>
-                    </figcaption>
-                </figure>
-
-                <figure class="services_group">
-                    <h3>Exhibition and Trade Show Translator</h3>
-                    <img src="../Resources/img/placeholder.png" alt="Canton Fair" class="services_img">
-                    <figcaption>
-                        <ul>
-                            <li>Experience in major events like Canton Fair, Jewelry & Gem Asia, and Prolight + Sound Guangzhou;</li>
-                            <li>Assists in business matchmaking, client introductions, and contract discussions;</li>
-                            <li>Offers on-site translation services for international trade fairs and exhibitions in China and Hong Kong.</li>
-                        </ul>
-                    </figcaption>
-                </figure>
-
-                <figure class="services_group">
-                    <h3>Tourist Guide and Travel Assistant</h3>
-                    <img src="../Resources/img/placeholder.png" alt="Tourist Guide" class="services_img">
-                    <figcaption>
-                        <ul>
-                            <li>Provides customized travel itineraries and local insights;</li>
-                            <li>Assists with shopping, sightseeing, cultural experiences, and airport transfers;</li>
-                            <li>Guides international visitors in Guangzhou, Hong Kong, Shenzhen, and other major Chinese cities.</li>
-                        </ul>
-                    </figcaption>
-                </figure>
-
-                <figure class="services_group">
-                    <h3>Media and Fashion Industry Translator</h3>
-                    <img src="../Resources/img/placeholder.png" alt="Model Shooting translator" class="services_img">
-                    <figcaption>
-                        <ul>
-                            <li>Provides translation for fashion shoots, advertisement productions, and model contracts;</li>
-                            <li>Ensures smooth communication between international models, photographers, and production teams;</li>
-                            <li>Experienced in handling portrait rights negotiations and on-set interpretation.</li>
-                        </ul>
-                    </figcaption>
-                </figure>
-
-                <figure class="services_group">
-                    <h3>Multilingual Translator Hub</h3>
-                    <img src="../Resources/img/placeholder.png" alt="Find a translator for other languages"
-                        class="services_img">
-                    <figcaption>
-                        <ul>
-                            <li>Access to a vast network of professional translators across multiple languages;</li>
-                            <li>On-demand matching with the most suitable translator for specific needs;</li>
-                            <li>Quality assurance and accuracy checks to ensure high translation standards.</li>
-                        </ul>
-                    </figcaption>
-                </figure>
-
+            <div class="serv_container_left">
+                <img src="../Resources/img/placeholder.png" alt="Factory Visiting Guide" class="services_img">
+                <div class="service_content">
+                    <h3>Business and Industrial Support</h3>
+                    <p>I assist foreign clients during factory and company visits in industries such as electronics,
+                        jewelry, furniture, textiles, and construction materials. I support business negotiations,
+                        product inspections, and supplier meetings while providing specialized translation and cultural
+                        guidance to ensure smooth communication and successful business interactions.
+                    </p>
+                </div>
             </div>
+            <div class="serv_container_right">
+                <div class="service_content">
+                    <h3>Interpretation for Events and Trade Shows</h3>
+                    <p>I provide consecutive and simultaneous interpretation for business meetings, trade negotiations,
+                        and corporate events, specializing in sectors like renewable energy, medical technology, real
+                        estate, and industrial equipment. I also offer on-site translation services at major
+                        international trade fairs, assisting with product presentations, client introductions, and
+                        contract discussions.
+                    </p>
+                </div>
+                <img src="../Resources/img/placeholder.png" alt="Factory Visiting Guide" class="services_img">
+            </div>
+
+            <div class="serv_container_left">
+                <img src="../Resources/img/placeholder.png" alt="Factory Visiting Guide" class="services_img">
+                <div class="service_content">
+                    <h3>Tourism and Media Assistance</h3>
+                    <p>I offer personalized support for tourists and professionals in the media and fashion industries,
+                        creating customized travel itineraries, assisting with shopping, sightseeing, and
+                        transportation, and ensuring a smooth experience. I also provide translation services for
+                        fashion shoots, advertisement productions, and model contracts, facilitating seamless
+                        communication between international teams.
+                    </p>
+                </div>
+            </div>
+            <div class="serv_container_right">
+                <div class="service_content">
+                    <h3>Multilingual Translator Network</h3>
+                    <p>Through my extensive network of professional translators across multiple languages, I ensure that
+                        each client is matched with the most suitable expert for their specific needs. I implement
+                        quality assurance and accuracy checks to maintain high translation standards across various
+                        industries.
+                    </p>
+                </div>
+                <img src="../Resources/img/placeholder.png" alt="Factory Visiting Guide" class="services_img">
+            </div>
+        </div>
+
+        <article class="cta">
+            <h2>Make Communication Effortless</h2>
+            <p>Need a reliable interpreter for business, events, or travel?</p>
+            </p>I ensure smooth communication and a hassle-free experience.</p>
+            <p>Let’s connect today!</p>
         </article>
 
         <div id="contact_info">
             <h2>All my Contact information</h2>
             <figure id="all_contact_icons">
                 <img class="contact_icon" src="../Resources/img/email.png" alt="E-Mail">
-
                 <img class="contact_icon" src="../Resources/img/whatsapp.png" alt="WhatsApp">
                 <img class="contact_icon" src="../Resources/img/wechat.png" alt="WeChat">
             </figure>

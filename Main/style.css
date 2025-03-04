@@ -19,15 +19,22 @@ body {
     text-align: center;
     background-color: antiquewhite;
     padding: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
+.nav_div ul {
+    width: 60%;
+    margin: 0 0;
 }
 
 .main_navbar ul {
+    display: grid;
+    grid-template-columns: 50% 50% 50%;
 }
 
 .main_nav_item{
     display: inline;
-
 }
 
 .nav_button {
@@ -38,8 +45,8 @@ body {
 }
 
 a:hover {
-    box-shadow: 3px 3px 3px 3px gray;
-    margin: 40px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin: 20px;
     padding: 15px;
 }
 
@@ -48,8 +55,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     height: 300px;
-    width: 60%;
-    margin: 55px auto;
+    margin: 100px auto;
     
 }
 
@@ -58,7 +64,6 @@ a:hover {
 #main_content {
     display: block;
     align-content: center;
-    width: 1100px;
     background-color: #fff;
     padding: 5px;
     margin: 0 auto;
@@ -68,48 +73,62 @@ a:hover {
     text-align: center;
 }
 
+/*
+    About me    
+*/
+#about_container {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+/* 
+    CTA
+*/
+.cta {
+    text-align: center;
+    padding: 20px;
+}
+
 /* 
     Services article section
 */
+
 #services h1 {
     text-align: center; 
 }
-#serv_container {
-    height: auto;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 300px 300px 300px;
-    margin-right: 20px;
-}
-
-.services_group {
+#services {
     box-sizing: border-box;
-    padding: 4px;
-    height: 650px;
-    width: 250px;
-    background-color: aliceblue;
-    box-shadow: 10px 10px 10px gray;
-
+    padding: 20px;
 }
 
-.services_group h3 {
-    text-align: center;
-    margin-bottom: 10px;
+.serv_container_left {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: start;
+    border: 1px solid;
+}
+.serv_container_right {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: start;
+    border: 1px solid;
 }
 
 .services_img {
-    height: 300px;
-    width: 99%;
-    border: 2px solid black;
-
-}
-
-figure h3 {
-    height: 40px;
-}
-
-figcaption {
     width: 100%;
+    border: 1px solid red;
+}
+
+.service_content {
+    display: grid;
+    grid-template-rows: 30% 80%;
+}
+.service_content p {
+    padding: 10px;
+    border: 1px solid blue;
+}
+.service_content h3 {
+    border: 1px solid green;
 }
 
 /* 
